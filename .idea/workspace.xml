@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6dcb4740-b2ec-40f3-af9a-0823ce3a1250" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/dto/ProductDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/ProductService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
