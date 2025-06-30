@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dcb4740-b2ec-40f3-af9a-0823ce3a1250" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/dto/ProductDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitsnbytes/productlist/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/dto/ProductDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bitsnbytes/productlist/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +42,10 @@
   &quot;keyToString&quot;: {
     &quot;Application.ProductApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v6/rest-api&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Komal Java/Springboot_tutorial/productlist&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Komal Java/CodingShuttle_SpringBoot/introductionToSpringBoot&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
