@@ -3,6 +3,7 @@ package com.bitsnbytes.productlist.service;
 import com.bitsnbytes.productlist.dto.ProductDTO;
 import com.bitsnbytes.productlist.entity.Category;
 import com.bitsnbytes.productlist.entity.Product;
+import com.bitsnbytes.productlist.exception.CategoryNotFoundException;
 import com.bitsnbytes.productlist.mapper.ProductMapper;
 import com.bitsnbytes.productlist.repository.CategoryRepository;
 import com.bitsnbytes.productlist.repository.ProductRepository;
@@ -24,7 +25,7 @@ public class ProductService {
          */
         System.out.println("CategoryId: " + productDTO.getCategoryId());
         Category category = categoryRepository.findById(productDTO.getCategoryId())
-                .orElseThrow(() -> new RuntimeException("Category not found"));
+                .orElseThrow(() -> new CategoryNotFoundException("Category Id "+productDTO.getCategoryId()+" not found"));
         // DTO -> Entity
         Product product = ProductMapper.toProductEntity(productDTO, category);
         product = productRepository.save(product);

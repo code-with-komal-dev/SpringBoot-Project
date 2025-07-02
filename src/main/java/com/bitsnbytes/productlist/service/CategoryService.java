@@ -2,12 +2,14 @@ package com.bitsnbytes.productlist.service;
 
 import com.bitsnbytes.productlist.dto.CategoryDTO;
 import com.bitsnbytes.productlist.entity.Category;
+import com.bitsnbytes.productlist.exception.CategoryAlreadyExistsException;
 import com.bitsnbytes.productlist.mapper.CategoryMapper;
 import com.bitsnbytes.productlist.repository.CategoryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @AllArgsConstructor
@@ -17,6 +19,11 @@ public class CategoryService {
 
     // Create Category
     public CategoryDTO createCategory(CategoryDTO categoryDTO) {
+
+        Optional<Category> optionalCategory = categoryRepository.findByName(categoryDTO.getName());
+        if(optionalCategory.isPresent()) {
+            throw new CategoryAlreadyExistsException("Category " + categoryDTO.getName()+ " already exists");
+        }
         Category category = CategoryMapper.toCategoryEntity(categoryDTO);
         category = categoryRepository.save(category);
         return CategoryMapper.toCategoryDTO(category);
